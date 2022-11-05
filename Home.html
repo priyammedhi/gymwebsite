@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>W FITNESS</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="shortcut icon" href="sources/favicon.ico" type="image/x-icon">
+    <script src=
+    "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js">
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+        <h4 class="logo"></h4>
+        <ul class="navc">
+            <a href="#" class="active"><li>Home</li></a>
+				<a href="Shop.html"><li>Shop</li></a>
+				<a href="About.html"><li>About</li></a>
+        </ul></nav>
+    <div class="banner">
+        <div class="intro">
+        <h2>look better<br> feel better</h2>
+        <p>Lorem ipsum dolor sit amet,Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem consequuntur, asperiores, optio facere illum officia molestias quis po et vel neque quisquam? consectetur adipisicing elit. Maxime unde cumque a!</p>
+        <button class="btn"><a href="">Contact Us</a></button>
+    </div>
+    </div>
+    </header>
+    <div class="row">
+        <div class="card" style="color: white; background:var(--primary-color);">
+        <h2>Progression</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A nostrum vitae illo, sit architecto qui! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, maiores. </p>
+    </div>
+        <div class="card" style="color: white; background:var(--secondary-color);">
+        <h2>Workout</h2>
+        <p>Lorem ipsum dolor sit amet consectetur Lorem ipsum dolor sit amet consectetur adipisicing elit. In, rem! adipisicing elit. A nostrum vitae illo, sit architecto qui!</p>
+    </div>
+        <div class="card" style="color: white; background:var(--primary-color);">
+        <h2>Nutrition</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A nostrum vitae illo, sit architecto qui! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, eos.</p>
+    </div>    
+    </div>
+    <h1 style="background:white;color:black" align="center">Trainers</h1>
+    <div>
+        <div>
+            <div id="t1" class="Trainers">
+            <div><h2>DLaid</h2>
+            <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, sed! Sequi nesciunt dolorem odio laudantium dignissimos maxime vel illo qui. Provident, ab corporis</span>
+            </div>
+            <img src="sources/t1.jpg" alt="#">
+            </div>
+            <div id="t2" class="Trainers">
+             <img src="sources/t2.jpg" alt="#">
+            <div><h2>Monica</h2>
+            <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos voluptate nam aliquid perferendis suscipit repellat ullam, amet odio fugit adipisci? Provident, ab corporis</span>
+            </div></div>
+            <div id="t3" class="Trainers">
+                <div><h2>Alex</h2>
+                <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis maiores ea sapiente eveniet minus! Saepe voluptate at minus totam officia. Provident, ab corporis</span>
+                </div> <img src="sources/t3.jpg" alt="#">
+            </div>
+        </div>
+    </div>
+    <footer style="color: white;background:var(--secondary-color);">
+        <div class="foot">
+            <h3>Created By:</h3>
+            <h4>Priyam Medhi</h4>
+        </div>
+    </footer>
+    <div class="mode">
+        Change Text Color:            
+        <span class="change">OFF</span>
+    </div>
+    <script>$( ".change" ).on("click", function() {
+        if( $( "body" ).hasClass( "dark" )) {
+            $( "body" ).removeClass( "dark" );
+            $( ".change" ).text( "OFF" );
+        } else {
+            $( "body" ).addClass( "dark" );
+            $( ".change" ).text( "ON" );
+        }
+    });</script>
+</body>
+</html>
